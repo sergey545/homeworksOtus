@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Otus.Teaching.PromoCodeFactory.Core.Domain.Administration;
-
-namespace Otus.Teaching.PromoCodeFactory.WebHost.Models
+﻿namespace Otus.Teaching.PromoCodeFactory.WebHost.Models
 {
     public class EmployeeResponse
     {

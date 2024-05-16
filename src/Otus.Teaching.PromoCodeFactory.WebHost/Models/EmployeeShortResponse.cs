@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Otus.Teaching.PromoCodeFactory.WebHost.Models
+﻿namespace Otus.Teaching.PromoCodeFactory.WebHost.Models
 {
     public class EmployeeShortResponse
     {

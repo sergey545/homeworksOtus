@@ -1,12 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Otus.Teaching.PromoCodeFactory.Core.Abstractions.Repositories;
-using Otus.Teaching.PromoCodeFactory.Core.Domain.Administration;
-using Otus.Teaching.PromoCodeFactory.WebHost.Models;
-
-namespace Otus.Teaching.PromoCodeFactory.WebHost.Controllers
+﻿namespace Otus.Teaching.PromoCodeFactory.WebHost.Controllers
 {
     /// <summary>
     /// Роли сотрудников
@@ -21,7 +13,7 @@ namespace Otus.Teaching.PromoCodeFactory.WebHost.Controllers
         {
             _rolesRepository = rolesRepository;
         }
-        
+
         /// <summary>
         /// Получить все доступные роли сотрудников
         /// </summary>
@@ -31,7 +23,7 @@ namespace Otus.Teaching.PromoCodeFactory.WebHost.Controllers
         {
             var roles = await _rolesRepository.GetAllAsync();
 
-            var rolesModelList = roles.Select(x => 
+            var rolesModelList = roles.Select(x =>
                 new RoleItemResponse()
                 {
                     Id = x.Id,

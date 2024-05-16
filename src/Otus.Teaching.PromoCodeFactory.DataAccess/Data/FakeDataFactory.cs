@@ -35,7 +35,7 @@ namespace Otus.Teaching.PromoCodeFactory.DataAccess.Data
             },
         };
 
-        public static IEnumerable<Role> Roles => new List<Role>()
+        public static ICollection<Role> Roles => new List<Role>()
         {
             new Role()
             {
