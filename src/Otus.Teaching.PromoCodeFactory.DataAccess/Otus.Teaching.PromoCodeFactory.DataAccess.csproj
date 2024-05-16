@@ -1,11 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
-    <PropertyGroup>
-        <TargetFramework>net8</TargetFramework>
-    </PropertyGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Otus.Teaching.PromoCodeFactory.Core\Otus.Teaching.PromoCodeFactory.Core.csproj" />
-    </ItemGroup>
-
+	<PropertyGroup>
+		<TargetFramework>net8</TargetFramework>
+		<NoStandardLib>false</NoStandardLib>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Otus.Teaching.PromoCodeFactory.Core\Otus.Teaching.PromoCodeFactory.Core.csproj" />
+	</ItemGroup>
 </Project>
